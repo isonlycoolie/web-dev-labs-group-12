@@ -23,6 +23,22 @@ Reinforce HTML fundamentals by building a structured, multi-page website that de
 | `assets/screenshots/contact-image.png` | Contact page screenshot |
 | `assets/screenshots/external-links-image.png` | External links page screenshot |
 
+### Home Page
+
+![Home page screenshot](assets/screenshots/index-image.png)
+
+### About Page
+
+![About page screenshot](assets/screenshots/about-image.png)
+
+### Contact Page
+
+![Contact page screenshot](assets/screenshots/contact-image.png)
+
+### External Links Page
+
+![External links page screenshot](assets/screenshots/external-links-image.png)
+
 ## Challenges Faced
 - Keeping the page structure simple while still meeting all required lab criteria.
 - Making sure the navigation links remained consistent across all pages.
