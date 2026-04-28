@@ -54,3 +54,6 @@ Reinforce HTML fundamentals by building a structured, multi-page website that de
 | 4 | BRAYAN SIMON MTEMI | 32806/T.2024 |
 | 5 | EMMANUEL PETER JOHN | 33814/T.2024 |
 | 6 | ASHIRAFU SAID MUSA | 34241/T.2024 |
+
+## Lecturer
+This work is submitted to MR SHADRACK.
