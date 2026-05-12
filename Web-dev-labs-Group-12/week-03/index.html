@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lab Week 3</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      background: rgba(0,0,0,0.25);
+      padding: 0.4rem 0.7rem;
+      border-radius: 4px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: rgba(255,255,255,0.2);
+      color: #fffb;
+    }
+
+    .section h2 {
+      color: #333366;
+      font-family: Georgia, serif;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <h1 style="color:#223344;">Group 12</h1>
+    <p>Front-End Web Developer</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#routine">Daily Routine</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I'm a developer learning HTML and CSS.</p>
+      <img src="assets/Image.jpg" alt="Profile" style="border-radius:8px;" />
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="routine" class="section">
+      <h2>Daily Routine</h2>
+      <ol>
+        <li>Morning: Read tutorials and practice exercises</li>
+        <li>Afternoon: Build small components and experiment</li>
+        <li>Evening: Review work and plan next tasks</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
