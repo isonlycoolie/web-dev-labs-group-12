@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lab 4 Layout Control</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <header class="site-header">Lab 4 Understanding Layout Control</header>
+
+  <nav class="site-nav">
+    <a href="#boxes">Box Model</a> |
+    <a href="#positioning">Positioning</a> |
+    <a href="#float">Float & Clear</a>
+  </nav>
+
+  <main class="container">
+    <section id="boxes" class="top-boxes">
+      <h1>Part 1 Box Model</h1>
+      <div class="box">
+        <h2>Box One</h2>
+        <p>Content for the first box. Increase padding to see internal space grow.</p>
+      </div>
+      <div class="box larger-padding">
+        <h2>Box Two</h2>
+        <p>Box with larger padding to demonstrate the box model (content → padding → border → margin).</p>
+      </div>
+      <div class="box large-margin">
+        <h2>Box Three</h2>
+        <p>Box with extra margin to show separation between stacked boxes.</p>
+      </div>
+    </section>
+
+    <section id="positioning" class="positioning-demo">
+      <h1>Part 2 Positioning</h1>
+      <div class="label-container">
+        <p>This container is positioned relative. The red label is absolute and sits at the container's top-right.</p>
+        <span class="label">NEW</span>
+      </div>
+
+      <p class="note">Scroll down to observe the fixed header and sticky navigation behaviour.</p>
+    </section>
+
+    <section id="float" class="float-demo">
+      <h1>Part 3 Float and Clear</h1>
+      <div class="main-content">
+        <h2>Main Content (floated left)</h2>
+        <p>This main area is floated left. Content may wrap around the sidebar unless the footer clears the floats.</p>
+
+        <div class="content-box">
+          <h3>Content Box</h3>
+          <p>Demonstrates box model inside a floated column.</p>
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Sidebar (floated right)</h3>
+        <p>Sidebar content and short notes.</p>
+      </aside>
+
+      <div class="clear-note"></div>
+    </section>
+
+    <section id="integrated" class="integrated">
+      <h1>Part 4 Integrated Mini Layout</h1>
+      <p>Combined page showing all required layout techniques without Flexbox or Grid.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">Footer cleared below floats</footer>
+
+</body>
+</html>
